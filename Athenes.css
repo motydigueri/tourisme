@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.corps{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/athene2.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.tete{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15;
+}
+.ligne{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.colonne{
+    flex-basis: 50%;
+}
+p{
+    color: white;
+    font-size: 16px;
+    line-height: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    width: 180px;
+    color: goldenrod;
+    background-color: orange;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 30px;
+    transition-duration: 2s 2s;
+    background-color: blue;
+}
+button:hover{
+    transform: rotateY(40deg);
+    color: rgb(255, 187, 0);
+}
+.photo{
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-position: center;
+    background-size: cover;
+  transition-delay: 0s 1s;
+    transition-duration: 1s;
+    transition: 1s all ease-in-out;
+}
+.photo1{
+    background-image: url(Img/athen7.jpg);
+}
+.photo2{background-image: url(Img/athen6.jpg);}
+.photo3{background-image: url(Img/athene2.jpg);}
+.photo4{background-image: url(Img/athen5.jpg);}
+.photo5{background-image: url(Img/athen3.jpg);}
+.photo6{background-image: url(Img/atheneswww.jpg);}
+
+.photo:hover{
+    transform: rotateX(90deg);
+}
+h1{
+    color: antiquewhite;
+}

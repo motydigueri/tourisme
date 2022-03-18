@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.corps{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Img/newyo4.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.tete{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    background-color: orange;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15;
+}
+.ligne{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+p{
+    color: aliceblue;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    width: 180px;
+    color: goldenrod;
+    background-color: orange;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 30px;
+    transition-duration: 2s 2s;
+    background-color: blue;
+    position: relative;
+   
+}
+button:hover{
+    transform: rotate(720s );
+    cursor: pointer;
+    background-color: white;
+    color: black;    
+}
+.photo{
+    width: 400px;
+    height: 205px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-position: center;
+    background-size: cover;
+  transition-delay: 0s 1s;
+    transition-duration: 3s;
+    position: relative;
+    top: -270px;
+
+
+}
+.photo2{background-image: url(Img/newyo4.jpg);}
+.photo3{background-image: url(Img/newyo5.jpg);}
+.photo4{background-image: url(Img/newyo6.jpg);}
+.photo5{background-image: url(Img/newyo8.jpg);}
+.photo6{background-image: url(Img/newyo.jpg);}
+
+.photo:hover{
+  border-radius: 50%;
+  transform: rotate(120deg);
+}
+
+h1{
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite
+    ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+video{
+    position: relative;
+    top: -30px;
+    left: 330px;
+}
